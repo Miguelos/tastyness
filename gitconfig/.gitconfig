@@ -1,0 +1,20 @@
+[user]
+	name = vic
+	mail = victorcuad@gmail.com
+	email = victorcuad@gmail.com
+[credential]
+	helper = cache
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 467x157+0+54
+	history-view-vpane-position = 435
+	main-window-view = HistoryView
+	file-view-vpane-position = 676
+	file-view-hpane-position = 311
+	show-graph = false
+[alias]
+	lg1 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+	lg2 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)— %an%C(reset)' --abbrev-commit
+	lg = !"git lg1"
+[color]
+	ui = true
