@@ -3,15 +3,22 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"BracketHighlighter",
 		"Clipboard History",
 		"Codeigniter Codeintel Helper",
+		"DetectSyntax",
 		"Git",
+		"GitHubinator",
 		"JsFormat",
 		"LaTeXTools",
+		"Markdown Preview",
 		"Package Control",
+		"Prefixr",
 		"Search Stack Overflow",
+		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"Theme - Soda",
 		"VHDL",
 		"WordHighlight"
 	]
