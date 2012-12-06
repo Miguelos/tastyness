@@ -1,15 +1,20 @@
 {
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":["Vintage"],
-	"rulers":[80],
-	"font_size": 11.0,
-    "bold_folder_labels": true, // Show folders in the side bar in bold
-    "dictionary": "Packages/Language - English/en_GB.dic",
-    "spell_check": true, // Set to true to turn spell checking on by default
-    "tab_completion": true,
-    "show_tab_close_buttons": true,
-    "word_wrap": "auto"
-    
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"show_tab_close_buttons": true,
+	"spell_check": true,
+	"tab_completion": true,
+	"word_wrap": "auto"
 }
