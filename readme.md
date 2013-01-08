@@ -12,3 +12,4 @@ Snoop around and grab what you want!
 * gedit
 * gnome shell extensions: 3.4/3.6
 * chrome
+* thunderbird?
