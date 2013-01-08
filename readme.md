@@ -9,8 +9,8 @@ Snoop around and grab what you want!
 
 ## things to add
 
-* gedit
+* gedit: ~/.config/gedit, and dconf
 * gnome shell extensions: 3.4/3.6
-* chrome
+* chrome: ~/.config/google-chrome, but exposing private things
 * thunderbird?
-* keep track of repositories and packages
+* keep track of repositories and packages: http://askubuntu.com/questions/17823/how-to-list-all-installed-packages
