@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Additional PHP Snippets",
 		"Alignment",
 		"BracketHighlighter",
 		"Clipboard History",
@@ -10,10 +11,14 @@
 		"DocBlockr",
 		"Git",
 		"GitHubinator",
+		"HTML5",
+		"JavaScript Snippets",
 		"JsFormat",
 		"LaTeXTools",
 		"Markdown Preview",
 		"Package Control",
+		"PHP Syntax Checker",
+		"PhpDoc",
 		"Prefixr",
 		"Search Stack Overflow",
 		"SideBarEnhancements",
