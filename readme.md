@@ -13,3 +13,5 @@ Snoop around and grab what you want!
 * gnome shell extensions: 3.4/3.6
 * chrome
 * thunderbird?
+
+[![endorse](http://api.coderwall.com/viccuad/endorsecount.png)](http://coderwall.com/viccuad)
