@@ -6,6 +6,7 @@ Snoop around and grab what you want!
 
 * sublime-text: "User" directory inside here belongs to ~/.config/sublime-text-2/Packages
 * git-config: ".gitconfig" file belongs to ~
+* laptop-mode-tools config: belongs to /etc/laptop-mode
 
 ## things to add
 
@@ -14,3 +15,7 @@ Snoop around and grab what you want!
 * chrome: ~/.config/google-chrome, but exposing private things
 * thunderbird?
 * keep track of repositories and packages: http://askubuntu.com/questions/17823/how-to-list-all-installed-packages
+=======
+
+[![endorse](http://api.coderwall.com/viccuad/endorsecount.png)](http://coderwall.com/viccuad)
+
