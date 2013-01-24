@@ -13,9 +13,10 @@ Snoop around and grab what you want!
 * gedit: ~/.config/gedit, and dconf
 * gnome shell extensions: 3.4/3.6
 * chrome: ~/.config/google-chrome, but exposing private things
-* thunderbird?
+* thunderbird, maybe
 * keep track of repositories and packages: http://askubuntu.com/questions/17823/how-to-list-all-installed-packages
-=======
+
+## ·
 
 [![endorse](http://api.coderwall.com/viccuad/endorsecount.png)](http://coderwall.com/viccuad)
 
