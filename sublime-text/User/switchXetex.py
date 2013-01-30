@@ -7,11 +7,9 @@ import filecmp
 class SwitchCommand(sublime_plugin.ApplicationCommand):
     def run(self):
         folder = '/home/vic/.config/sublime-text-2/Packages/User/'
-        #folder_latextools = '/home/vic/.config/sublime-text-2/Packages/LaTeXTools/'
         latex_src = folder + 'LaTeX.sublime-build.latex'
         xetex_src = folder + 'LaTeX.sublime-build.xetex'
         dest = folder + 'LaTeX.sublime-build'
-        #origin = folder_latextools + 'LaTeX.sublime-build'
         if filecmp.cmp(dest, latex_src):
             sublime.status_message("Switching to XeTeX")
             shutil.copy(xetex_src, dest)
