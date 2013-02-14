@@ -1,0 +1,76 @@
+[global_config]
+  window_state = maximise
+  handle_size = 0
+  enabled_plugins = InactivityWatch, ActivityWatch, TerminalShot, LaunchpadBugURLHandler
+  borderless = True
+  title_transmit_bg_color = "#000000"
+  title_inactive_bg_color = "#000000"
+[keybindings]
+  hide_window = F12
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    visible_bell = True
+    background_darkness = 0.78
+    scrollback_lines = 1000
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    icon_bell = False
+    copy_on_selection = True
+    audible_bell = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[vic]]
+    [[[child0]]]
+      position = 0:0
+      type = Window
+      order = 0
+      parent = ""
+      size = 1280, 800
+    [[[child1]]]
+      position = 400
+      type = VPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 1082
+      type = HPaned
+      order = 0
+      parent = child1
+    [[[child5]]]
+      position = 626
+      type = HPaned
+      order = 1
+      parent = child1
+    [[[terminal3]]]
+      profile = default
+      command = "htop "
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal4]]]
+      profile = default
+      command = ""
+      type = Terminal
+      order = 1
+      parent = child2
+    [[[terminal7]]]
+      profile = default
+      command = ""
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal6]]]
+      profile = default
+      command = "watch -n 20 tail /var/log/syslog "
+      type = Terminal
+      order = 0
+      parent = child5
+[plugins]

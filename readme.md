@@ -7,6 +7,7 @@ Snoop around and grab what you want!
 * sublime-text: "User" directory inside here belongs to ~/.config/sublime-text-2/Packages
 * git-config: ".gitconfig" file belongs to ~
 * laptop-mode-tools config: belongs to /etc/laptop-mode
+* terminator: belongs to ~/.config/terminator/
 
 ## things to add
 
