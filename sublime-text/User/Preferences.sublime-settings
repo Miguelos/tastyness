@@ -20,7 +20,7 @@
 		"CVS",
 		".settings"
 	],
-	"font_size": 10.0,
+	"font_size": 9.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"indent_subsequent_lines": true,
