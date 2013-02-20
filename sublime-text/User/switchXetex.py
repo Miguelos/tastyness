@@ -18,3 +18,4 @@ class SwitchCommand(sublime_plugin.ApplicationCommand):
         elif filecmp.cmp(dest, xetex_src):
             sublime.status_message("Switching to LaTeX")
             shutil.copy(latex_src, dest)
+
