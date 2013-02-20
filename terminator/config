@@ -1,12 +1,12 @@
 [global_config]
   window_state = maximise
-  handle_size = 0
+  handle_size = 2
   enabled_plugins = InactivityWatch, ActivityWatch, TerminalShot, LaunchpadBugURLHandler
   borderless = True
   title_transmit_bg_color = "#000000"
   title_inactive_bg_color = "#000000"
 [keybindings]
-  hide_window = F12
+  hide_window = F10
 [profiles]
   [[default]]
     scrollbar_position = hidden
@@ -40,12 +40,12 @@
       order = 0
       parent = child0
     [[[child2]]]
-      position = 1082
+      position = 852
       type = HPaned
       order = 0
       parent = child1
     [[[child5]]]
-      position = 626
+      position = 426
       type = HPaned
       order = 1
       parent = child1

@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"4GL",
 		"Alignment",
 		"BracketHighlighter",
 		"Clipboard History",
@@ -16,6 +17,7 @@
 		"Markdown Preview",
 		"Package Control",
 		"Prefixr",
+		"PythonTidy",
 		"Search Stack Overflow",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
