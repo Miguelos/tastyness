@@ -84,11 +84,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
-alias l='ls -CF'
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -126,4 +121,31 @@ if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
  
-PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
+# Subversion prompt
+SVNP_HUGE_REPO_EXCLUDE_PATH="nufw-svn$|/tags$|/branches$"
+. ~/.bash/subversion-prompt
+# PS1='\u@\h:\w$(__svn_stat)\$ '
+
+PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__svn_stat)$(__git_ps1)\[\033[00m\]\$ '
+
+
+## some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
+## git aliases
+alias gb='git branch -a -v'
+alias gs='git status'
+alias ga='git add .'
+alias gd='git diff'
+
+# gc      => git checkout master
+# gc bugs => git checkout bugs
+function gc {
+  if [ -z "$1" ]; then
+    git checkout master
+  else
+    git checkout $1
+  fi
+}
