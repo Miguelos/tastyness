@@ -1,1 +1,3 @@
-terminator -l vic -m -b -f
+terminator -l vic -m -b 
+
+you can add -f for fullscreen
