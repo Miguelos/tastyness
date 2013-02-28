@@ -57,7 +57,7 @@
       parent = child2
     [[[terminal4]]]
       profile = default
-      command = ""
+      command = "watch -n 5 ps -t /dev/pts/6"
       type = Terminal
       order = 1
       parent = child2
