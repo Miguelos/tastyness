@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"4GL",
+		"AdvancedNewFile",
 		"Alignment",
 		"BracketHighlighter",
 		"Clipboard History",
@@ -20,12 +21,15 @@
 		"PythonTidy",
 		"Search Stack Overflow",
 		"SideBarEnhancements",
-		"SublimeCodeIntel",
 		"SublimeLinter",
 		"Theme - Nexus",
 		"Theme - Night",
 		"Theme - Soda",
 		"VHDL",
 		"WordHighlight"
+	],
+	"repositories":
+	[
+		" https://github.com/lunixbochs/SublimeXiki"
 	]
 }
