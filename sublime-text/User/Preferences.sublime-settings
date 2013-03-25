@@ -1,8 +1,8 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
-	"dictionary": "Packages/Language - English/en_GB.dic",
+	"color_scheme": "Packages/User/UserTheme/Solarized (Dark-black).tmTheme",
+	"dictionary": "Packages/Language - Spanish/Spanish.dic",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":

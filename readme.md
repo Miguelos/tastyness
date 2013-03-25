@@ -8,6 +8,8 @@ Snoop around and grab what you want!
 * git-config: ".gitconfig" file belongs to ~
 * laptop-mode-tools config: belongs to /etc/laptop-mode
 * terminator: belongs to ~/.config/terminator/
+* tmux: belongs to ~/
+
 
 ## things to add
 
