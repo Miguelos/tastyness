@@ -138,6 +138,7 @@ alias l='ls -CF'
 alias gb='git branch -a -v'
 alias gs='git status'
 alias ga='git add .'
+alias gr='git ls-files --deleted -z | xargs -0 git rm'
 alias gd='git diff'
 
 # gc      => git checkout master
