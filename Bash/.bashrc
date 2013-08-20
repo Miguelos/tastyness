@@ -137,9 +137,11 @@ alias l='ls -CF'
 ## git aliases
 alias gb='git branch -a -v'
 alias gs='git status'
-alias ga='git add .'
+alias ga='git add'
+alias gau='git add -u'
 alias gr='git ls-files --deleted -z | xargs -0 git rm'
 alias gd='git diff'
+alias gco='git add -u && git commit -m'
 
 # gc      => git checkout master
 # gc bugs => git checkout bugs
